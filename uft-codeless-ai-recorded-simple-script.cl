@@ -4,7 +4,7 @@
       "command": "Click the \"SPEAKERS\" text",
       "enabled": true,
       "aiBased": true,
-      "selected": false,
+      "selected": true,
       "testObject": {
         "name": "SPEAKERS",
         "class": "text",
@@ -128,7 +128,7 @@
       "command": "Click the \"Sign out\" text",
       "enabled": true,
       "aiBased": true,
-      "selected": true,
+      "selected": false,
       "testObject": {
         "operation": "click",
         "name": "Sign out",
