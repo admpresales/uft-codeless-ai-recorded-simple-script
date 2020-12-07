@@ -6,10 +6,11 @@
       "aiBased": true,
       "selected": true,
       "testObject": {
+        "operation": "click",
         "name": "SPEAKERS",
         "class": "text",
-        "operation": "click",
-        "partialText": false,
+        "data": null,
+        "partialText": true,
         "verificationInfo": null
       },
       "level": 0,
@@ -21,10 +22,11 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
+        "operation": "click",
         "name": "pvantageDEMO",
         "class": "text",
-        "operation": "click",
-        "partialText": false,
+        "data": null,
+        "partialText": true,
         "verificationInfo": null
       },
       "level": 0,
@@ -36,8 +38,9 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
-        "class": "profile",
         "operation": "click",
+        "class": "profile",
+        "data": null,
         "partialText": false,
         "verificationInfo": null
       },
@@ -50,9 +53,10 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
+        "operation": "verify",
         "name": "Username",
         "class": "input",
-        "operation": "verify",
+        "data": null,
         "partialText": false,
         "verificationInfo": {
           "type": "exists",
@@ -69,10 +73,11 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
+        "operation": "type",
         "name": "Username",
         "class": "input",
         "value": "aidemo",
-        "operation": "type",
+        "data": null,
         "partialText": false,
         "verificationInfo": null
       },
@@ -85,10 +90,11 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
+        "operation": "type",
         "name": "Password",
         "class": "input",
         "value": "AIdemo1",
-        "operation": "type",
+        "data": null,
         "partialText": false,
         "verificationInfo": null
       },
@@ -101,9 +107,10 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
+        "operation": "click",
         "name": "SIGN IN",
         "class": "button",
-        "operation": "click",
+        "data": null,
         "partialText": false,
         "verificationInfo": null
       },
@@ -116,8 +123,9 @@
       "aiBased": true,
       "selected": false,
       "testObject": {
-        "class": "profile",
         "operation": "click",
+        "class": "profile",
+        "data": null,
         "partialText": false,
         "verificationInfo": null
       },
@@ -145,7 +153,7 @@
     {
       "data": {
         "technology": "web",
-        "webPageUrl": "http://nimbusserver.aos.com:8000/#/",
+        "webPageUrl": "www.advantageonlineshopping.com",
         "browserType": "Chrome"
       },
       "used": true
@@ -153,7 +161,15 @@
     {
       "data": {
         "technology": "web",
-        "webPageUrl": "http://nimbusserver.aos.com:8000/#/",
+        "webPageUrl": "www.advantageonlineshopping.com",
+        "browserType": "Internet Explorer"
+      },
+      "used": true
+    },
+    {
+      "data": {
+        "technology": "web",
+        "webPageUrl": "www.advantageonlineshopping.com",
         "browserType": "Firefox"
       },
       "used": true
